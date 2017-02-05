@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="theme-color" content="#A1CF45">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0 auto;
+           min-width: 900px;
+        }
+        .aside ul li a:hover{text-decoration: underline;}
+        .nav a:hover{text-decoration: underline;}
+        a:hover{text-decoration: underline;}
+        .header{
+            width: 100%;
+            min-width: 1000px;
+            height: 120px;
+        }
+        .headlogo{
+            width: 160px;
+            height: 43px;
+            position: absolute;
+            top: 40px;
+            left: 50px;
+        }
+        .logo{
+            height: 100%;
+            width: 100%;
+        }
+        .nav {padding-top: 40px;
+            height: 40px;
+            width: 500px;
+            float: right;
+        }
+        .nav a {text-decoration: none;
+        color: black;
+        text-align: center;
+        padding-left: 30px;
+        font-size: 20px;}
+        .slides{width: 100%;
+        border-top: 10px solid palegoldenrod;
+        height: auto;
+        min-width: 1000px;
+        }
+        .fig{width: 100%;
+        height: auto;
+            margin: 0 0 0 0;
+        }
+        .img img{width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;}
+        .details{position: relative;
+     }
+        .post{width: 500px;
+        background: rgba(10 ,210,245,0.2);
+        height: auto;
+        position: absolute;
+        left: 45px;
+        bottom: 60px;
+        padding: 10px;}
+        .help{background: aquamarine;
+        padding: 3px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white; }
+        .aside ul li{text-decoration: none;
+            list-style-type: none;
+        color: black;
+        padding-bottom: 10px;
+        font-size: 15px;
+        }
+        .aside ul li a{color: brown;
+        text-decoration: none;}
+        h1{padding-left: 50px;}
+        .aside{height: auto;
+            width: 200px;
+            padding-left: 15px;
+        float: left;
+        }
+
+        .content{overflow: hidden;
+           min-width: 700px;
+        }
+        .skills{width: 270px;
+            float: right;
+        }
+        .article img{float: left;
+            display: inline;
+            margin-right: 10px;
+        }
+        .section p{display: table-cell;
+        }
+
+        .test{width: 100%;
+        height: 50px;
+        background: black}
+        .main:after{
+            content: '';
+            Display: Block;
+            Clear: both;
+        }
+        .main{
+        min-width: 950px}
+        .skills li{list-style-type: none;
+        color: coral
+        }
+        .skills li ul{padding: 0;}
+        .skills li ul li{list-style-type:none;
+            color: black;
+        padding: 0;}
+        .skills li ul li:before{content: ">";
+        padding-right: 10px;}
+        .item p{width: auto;}
+        .foot{margin-right: 40px;
+        overflow: hidden;}
+        .footer{overflow: hidden;
+            text-align-last: justify;
+        border-top: 4px solid darkturquoise;
+       }
+        .menu{overflow: hidden;
+            width: auto;
+            padding: 0;
+            margin-left: 40px;
+            display: inline-block;
+            background: yellowgreen;
+            vertical-align: top;
+            text-align-last: left;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .menu li a{text-decoration: none;
+        list-style-type: none;}
+        .name {text-decoration: none;
+        list-style-type: none;}
+        .menu li ul li a{text-decoration: none;}
+        .menu li ul li{list-style-type: none;}
+        .menu li ul{padding: 0;}
+        .menu li ul li a:hover{text-decoration: underline;}
+        .menu li a:hover{text-decoration: underline;}
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="headlogo">
+        <a class="logo" href="#">
+            <img src="img/logo.png">
+            </a>
+    </div>
+    <nav class="nav" role="navigation">
+        <a href="#">cairs.net</a>
+        <a href="#">support</a>
+        <a href="#">contact</a>
+        <a href="#">blog</a>
+        <a href="#">our team</a>
+    </nav>
+</header>
+<div class="slides">
+    <figure class="fig">
+        <div class="img">
+            <img src="img/photo.png" alt="image">
+        </div>
+        <figcaption class="details">
+            <div class="post">
+                <span>Let′s lighten your day.</span>
+                <p>
+                    Don′t know how to get cairs.net to do what you need?
+                </p>
+                <a href="#" class="help">Get Help Now</a>
+            </div>
+        </figcaption>
+    </figure>
+</div>
+<main class="main" role="main">
+    <h1>
+        Meet Unique
+    </h1>
+    <aside class="aside" role="complementary">
+        <ul>
+            <li>
+                <a href="#">Our Story and Team</a>
+            </li>
+            <li>
+                <a href="#">Our Vision & Values</a>
+            </li>
+            <li>
+                <a href="#">Our Customers</a>
+            </li>
+            <li>
+                <a href="#">Our Place</a>
+            </li>
+            <li>
+                <a href="#">Join Us</a>
+            </li>
+        </ul>
+    </aside>
+    <div class="content">
+        <section class="section">
+            <h2>
+                From Pankages House to Cable Management Software
+            </h2>
+            <p>
+                texted need
+            </p>
+        </section>
+        <section class="section">
+            <h2>
+                Meet the Unique Famliy
+            </h2>
+            <p>
+                Say Hi to the boys and girls that make Unique an awesome place to work and make cairs.net such a great application
+            </p>
+            <article class="article">
+                <img src="img/img1.png" alt="">
+                <ul class="skills">
+                    <li>I have mad skills in</li>
+                    <li>
+                        <ul>
+                            <li>Orders & Troubles</li>
+                            <li>WOPR Scripting</li>
+                            <li>Accounting & Managing Billing</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="item">
+                    <h3>
+                        Anne Vanderhoven
+                    </h3>
+                    <h4>
+                        Wife of Fabio
+                    </h4>
+                    <p>
+                        management tools. Subscriber Portal is used to look up telephone bills, submit and manage trouble tickets, place and approve orders and search the telephone directory etc.
+                    </p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/img2.png" alt="">
+                <ul class="skills">
+                    <li>Let me serve you with</li>
+                    <li>
+                        <ul>
+                            <li>All of cairs.net</li>
+                            <li>UCE & Match Paterns</li>
+                            <li>Tennis</li>
+                            <li>Mind Craft</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="item">
+                    <h3>
+                        Joseph Vanderhoven
+                    </h3>
+                    <h4>
+                        Son of Fabio
+                    </h4>
+                    <p>
+                        management tools. Subscriber Portal is used to look up telephone bills, submit and manage trouble tickets, place and approve orders and search the telephone directory etc.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </div>
+    </main>
+<footer class="footer" role="contentinfo">
+    <div class="foot">
+        <ul class="menu">
+            <li>
+                <img src="img/logo2.png" alt="Unique">
+            </li>
+            <li>
+                <a href="#">Our Story</a>
+            </li>
+            <li>
+                <a href="#">Our Team</a>
+            </li>
+            <li>
+                <a href="#">Our Customers</a>
+            </li>
+            <li>
+                <a href="#">Join Us</a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="name">
+                cairs.net Learning Center
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#">Subscriber Portal</a>
+                    </li>
+                    <li>
+                        <a href="#">Getting Started</a>
+                    </li>
+                    <li>
+                        <a href="#">Configured Items</a>
+                    </li>
+                    <li>
+                        <a href="#">Orders & Troubles</a>
+                    </li>
+                    <li>
+                        <a href="#">Subscribers</a>
+                    </li>
+                    <li>
+                        <a href="#">Equipment & Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Accounting</a>
+                    </li>
+                    <li>
+                        <a href="#">Facilities</a>
+                    </li>
+                    <li>
+                        <a href="#">Switches</a>
+                    </li>
+                    <li>
+                        <a href="#">Directory & Organizations</a>
+                    </li>
+                    <li>
+                        <a href="#">System Admin</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="name">cairs.net Features</li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#">Telephone Expense Management</a>
+                    </li>
+                    <li>
+                        <a href="#">Moves, Adds, & Changes</a>
+                    </li>
+                    <li>
+                        <a href="#">Connectivity, Cable, & Inventory</a>
+                    </li>
+                    <li>
+                        <a href="#">Help Desk & Work Flow</a>
+                    </li>
+                    <li>
+                        <a href="#">Data Sync Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Alarms & Fault Montitoring</a>
+                    </li>
+                    <li>
+                        <a href="#">Traffic & Performance Reporting</a>
+                    </li>
+                    <li>
+                        <a href="#">Morale Call Management</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="name">Support</li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Report a Trouble</a>
+                    </li>
+                    <li>
+                        <a href="#">Request a Feature</a>
+                    </li>
+                    <li>
+                        <a href="#">Software Downloads</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="name">Connect</li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Youtube</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
